@@ -1,0 +1,21 @@
+### Health Check
+GET http://localhost:8080/health
+Content-Type: application/json
+
+###
+
+### Get Twitch User Status + AI Generated Comment - Usuário Online
+GET http://localhost:8080/api/twitch/fontinnelerj
+Content-Type: application/json
+
+###
+
+### Get Twitch User Status + AI Generated Comment - Outro Exemplo
+GET http://localhost:8080/api/twitch/alanzoka
+Content-Type: application/json
+
+###
+
+### Get Twitch User Status + AI Generated Comment - Substitua pelo username desejado
+GET http://localhost:8080/api/twitch/seu_username_aqui
+Content-Type: application/json

@@ -1,0 +1,43 @@
+# Arquivos de ambiente e credenciais
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+
+# Binários executáveis
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+api-comentarios
+
+# Dependências
+vendor/
+
+# Logs
+*.log
+logs/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Cobertura de testes
+coverage.txt
+*.cover
+*.coverprofile
+
+# Arquivos temporários
+tmp/
+temp/
